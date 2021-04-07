@@ -1,0 +1,84 @@
+﻿@import"https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
+body {
+    background-image:url(./imagedoan/dangnhap5.jpg);
+    
+    background-repeat: no-repeat;
+    background-size:cover;
+    
+}
+.dn h1{
+    width: 330px;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color:white;
+}
+.maindn{
+    width:330px;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    background:rgba(0,0,0,0.5);
+    
+}
+.textbox {
+    width: 100%;
+    overflow: hidden;
+    font-size: 20px;
+    padding: 8px 0;
+    margin: 8px 0;
+    border-bottom: 1px solid #ffffff;
+    color: white;
+}
+.textbox i{
+    width:26px;
+    height:28px;
+    float:left;
+    text-align:center;
+    color:white;
+
+}
+.textbox #txt_taikhoan{
+    border:none;
+    outline:none;
+    background:none;
+    color:white;
+    font-size:18px;
+    width:80%;
+    float:left;
+    margin:0 10px;
+}
+    .textbox #txt_matkhau {
+        border: none;
+        outline: none;
+        background: none;
+        color: white;
+        font-size: 18px;
+        width: 80%;
+        float: left;
+        margin: 0 10px;
+    }
+    .ghinho{
+        color:white;
+    }
+.btn #btn_dangnhap {
+    width: 100%;
+    background: none;
+    border: 2px solid #ffffff;
+    color: white;
+    padding: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    margin-bottom: 5px;
+}
+.btn #btn_dangky {
+    width: 100%;
+    background: none;
+    border: 2px solid #ffffff;
+    color: white;
+    padding: 5px;
+    font-size: 18px;
+    cursor: pointer;
+}
